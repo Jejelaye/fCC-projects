@@ -1,2 +1,2 @@
 # fCC-projects
-A repo for all my freeCodeCamp's projects
+A repo for freeCodeCamp's projects

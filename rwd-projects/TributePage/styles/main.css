@@ -1,0 +1,26 @@
+body {
+  background-color: #ddd;
+  font-family: 'Mansalva', cursive;
+  padding: auto;
+  color: #17161e;
+}
+#title, #img-caption, h2 {
+  text-align: center;
+}
+#image{
+  height: auto;
+  width: 100%;
+  display: block;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+
+
+@media (min-width: 970px) {
+ #image {
+   height: 440px;
+   width: 80%;
+  display: block;
+  margin: auto;
+ }
+}
