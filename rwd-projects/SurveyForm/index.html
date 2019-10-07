@@ -5,44 +5,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Survey Form</title>
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
   <h1 id="title">Survey</h1>
-  <p id="description">This survey will be your contribution to the continued development of freeCodeCamp</p>
+  <p id="description">Help me know how I can improve myself</p>
 
-  <form action="" id="survey-form">
-    <label for="name">Name</label>
-    <input type="text" id="name" required placeholder="Jane Doe"> <br>
+  <form action="#" id="survey-form">
+    <label class="left" for="name">Name</label>
+    <input class="right" type="text" id="name" required placeholder="Jane Doe"> <br>
 
-    <label for="email">Email</label>
-    <input type="email" id="email" required placeholder="abc@example.com"> <br>
+    <label class="left" for="email">Email</label>
+    <input class="right" type="email" id="email" required placeholder="abc@example.com"> <br>
 
-    <label for="number">Number</label>
-    <input type="number" id="number" min="5" max="9" placeholder="123-456-789"> <br>
+    <label class="left" for="number">Number</label>
+    <input class="right" type="number" id="number" min="5" max="9" placeholder="123-456-789"> <br>
 
-    <select name="" id="dropdown">
-      <option value="-">----</option>
-      <option value="a">Yesterday</option>
-      <option value="b">Today</option>
-      <option value="c">Tomorrow</option>
-    </select>
+    <label class="left" for="">How did you get to know me?</label>
+    <select class="right" name="" id="dropdown">
+      <option value="a">As Hostel mate</option>
+      <option value="b">As Department mate</option>
+      <option value="c">As Church member</option>
+    </select> <br>
     <!-- Radio btns -->
-    <div>
-      <label for=""><input type="radio" name="a"> 10</label>
-      <label for=""><input type="radio" name="a"> 11</label>
-      <label for=""><input type="radio" name="a"> 12</label>
-      <label for=""><input type="radio" name="a"> 13</label>
-    </div>
+    <label class="left" for="">How friendly do you think I am?</label>
+    <span class="right">
+      <label for=""><input type="radio" name="a"> Very Friendly</label> <br>
+      <label for=""><input type="radio" name="a"> Just Friendly</label> <br>
+      <label for=""><input type="radio" name="a"> A bit unfriendly</label> <br>
+      <label for=""><input type="radio" name="a"> Totally Unfriendly</label> <br><br>
+    </span>
     <!-- checkboxes -->
-    <div>
-      <label for=""><input type="checkbox" value="10" name="a"> 10</label>
-      <label for=""><input type="checkbox" value="11" name="a"> 11</label>
-      <label for=""><input type="checkbox" value="12" name="a"> 12</label>
-      <label for=""><input type="checkbox" value="13" name="a"> 13</label>
-    </div>
-    <div>
-      <label for="">Comments or other...</label> <textarea name="" id="" cols="30" rows="10"></textarea>
-    </div>
+    <label class="left" for=""> What do you like most about me?</label>
+    <span class="right">
+      <label for=""><input type="checkbox" value="10" name="a"> My being kind</label><br>
+      <label for=""><input type="checkbox" value="11" name="a"> My ability to keep in touch</label><br>
+      <label for=""><input type="checkbox" value="12" name="a"> My silence</label><br>
+      <label for=""><input type="checkbox" value="13" name="a"> My way of looking when confused.</label><br><br>
+    </span>
+    <!-- testarea -->
+    <label class="left" for="">Comments or other...</label> 
+    <span class="right">
+      <textarea name="" id="" cols="25" rows="5.0"></textarea>
+    </span>
 
     <button id="submit">Submit</button>
   </form>

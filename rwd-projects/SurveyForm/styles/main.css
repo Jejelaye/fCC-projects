@@ -1,0 +1,52 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  background-color: #5CB85C;
+}
+
+#title, #description {
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+}
+form {
+  height: auto;
+  width: 80%;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding: 30px;
+  color: #5CB85C;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+.left, .right {
+  width: 40%;
+  margin: auto;
+}
+[type='text'], [type='number'], [type='email'], select {
+  border: 1px solid #5CB85C;
+  border-radius: 2px;
+  height: 5vmin;
+  margin-bottom: 5px;
+  color: #5CB85C;
+  padding: 1px;
+}
+.left {
+  text-align: right;
+}
+textarea {
+  border-radius: 5px;
+}
+button {
+  width: 50%;
+  background-color: #5CB85C;
+  color: #ffffff;
+  border: 1px solid #5CB85C;
+  border-radius: 5px;
+  height: 50px;
+  font-size: 5vmin;
+  margin: auto;
+}
