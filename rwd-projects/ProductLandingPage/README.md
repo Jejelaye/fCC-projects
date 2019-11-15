@@ -1,0 +1,1 @@
+This project was to help me conquer my fear for CSS. I cannot say that it is the best, but it was certainly worth it. At least, I now have something to improve upon. 
